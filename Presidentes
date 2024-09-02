@@ -1,1 +1,53 @@
 
+private String nome;
+    private int numero;
+    private String partido;
+    private int anoinicio;
+    private int anofim;
+    private String posse;
+    public Presidente(int numero,String nome,String partido, int anoinicio, int anofim, String posse){
+        this.numero=numero;
+        this.partido=partido;
+        this.anoinicio=anoinicio;
+        this.anofim=anofim;
+        this.posse=posse;
+    }
+    public int getNumero(){
+        return numero;
+    }
+    public String getNome(){
+        return nome;
+    }
+    public String getPartido(){
+        return partido;
+    }
+    public int getAnoInicio(){
+        return anoinicio;
+    }
+    public int getAnoFim(){
+        return anofim;
+    }
+    public String getPosse(){
+        return posse;
+    }
+    public void setNumero(int novoNumero){
+        numero=novoNumero;
+    }
+    public void setNome(String novoNome){
+        nome=novoNome;
+    }
+    public void setPartido(String novoPartido){
+        partido=novoPartido;
+    }
+    public void setAnoInicio(int novoAnoInicio){
+        anoinicio=novoAnoInicio;
+    }
+    public void setAnoFim(int novoAnoFim){
+        anofim=novoAnoFim;
+    }
+    public void setPosse(String novaPosse){
+        posse=novaPosse;
+    }
+
+
+}
