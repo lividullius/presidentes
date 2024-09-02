@@ -5,3 +5,4 @@ public class ArrayListCollection
    public static void main(String[] args)
 ArrayList<Presidentes> presidentes = new ArrayList<Presidentes>();
 presidente.add(1,a,a,1,1,a);
+String golpe= presidente.setPosse("Golpe Militar");
