@@ -1,0 +1,25 @@
+@startuml
+
+class Presidentes {
+    ~numero :int
+    ~nome : String
+    ~nomeVice : String
+    ~partido: String
+    ~anoinicio : int
+    ~anofim : int
+    ~posse: String
+    +get()
+    +set()
+    +toString() : String
+}
+
+class PresidentesBR {
+    +{static} main(String[] args) : void
+}
+class PresidentesEua{
+    +{static} main(String[] args) : void
+}
+
+PresidentesBR ...> Presidentes
+PresidentesEua...> Presidentes
+@enduml
