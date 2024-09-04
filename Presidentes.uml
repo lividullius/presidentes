@@ -8,8 +8,20 @@ class Presidentes {
     ~anoinicio : int
     ~anofim : int
     ~posse: String
-    +get()
-    +set()
+    +Presidentes(int numero, String nome, String nomeVice, String partido, int anoinicio, int anofim, String posse)
+    +getNumero() : int
+    +getNome():String
+    +getNomeVice() : String
+    +getPartido() : String
+    +getAnoInicio() : int
+    +getAnoFim() : int
+    +getPosse() : String
+    +setNumero(int novoNumero) : void
+    +setNome(String novoNome) : void
+    +setNomeVice(String novoNomeVice) : void
+    +setAnoInicio(int novoAnoInico) : void
+    +setAnoFim(int novoAnoFim) : void
+    +setPosse(String novaPosse) : void
     +toString() : String
 }
 
