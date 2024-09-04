@@ -4,7 +4,7 @@ public class ArrayListCollection
 {
    public static void main(String[]args){
    System.out.println("\f");
-        System.out.println("\n Não são inclusas figuras que faleceram ou foram vítimas de golpes de estado antes de assumir a presidência, como, por exemplo, Rodrigues Alves, em seu segundo mandato, Júlio Prestes, em 1930, Pedro Aleixo, em 1969, e Tancredo Neves, em 1985.");
+        System.out.println("\n *Não são inclusas figuras que faleceram ou foram vítimas de golpes de estado antes de assumir a presidência, como, por exemplo, Rodrigues Alves, em seu segundo mandato, Júlio Prestes, em 1930, Pedro Aleixo, em 1969, e Tancredo Neves, em 1985.");
         String golpe= "Golpe de Estado.";
         String golpe2= "*Golpe de Estado.";
         String eleitoD= "Eleito diretamente.";
