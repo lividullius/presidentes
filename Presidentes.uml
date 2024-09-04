@@ -32,6 +32,6 @@ class PresidentesEua{
     +{static} main(String[] args) : void
 }
 
-PresidentesBR ...> Presidentes
-PresidentesEua...> Presidentes
+PresidentesBR ...> Presidentes : uses
+PresidentesEua...> Presidentes : uses
 @enduml
