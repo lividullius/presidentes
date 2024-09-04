@@ -2,3 +2,4 @@
 Presidentes do Brasil,
 Presidentes dos Eua
 ![image](https://github.com/user-attachments/assets/7413a38c-18e4-470b-ab9b-94da4f49d6a4)
+![image](https://www.plantuml.com/plantuml/png/bPB1IiGm48RlVOeSTr7x03t8AYXuaQBWHJo4DfQ19hDqqhsKlhlJJ4dJZHxiRVxvPlv_Ga_azU17snTDhubKFHY2rZXlI4s5uk_EZTOCg2fmVXNG6bMfTp-0wpRf0vfh-SoxeSMzg1s2WmQGOTafuZVOL3aZaTbDtYJX3imfINQxCce9aHIIA0gIXUbbCcQGKjmZ6goFujaP_nfi3iSjdSZiS3XMCfEeuXlmgruj4NvhFJXy2O4o6-uyWytacZFc9XJJXlV12qgvS1U4Db8Xl4mAndKEoIqPo5eEnmkYzQhavd9IvAJCABbmizP1s6CUfPy-n5pa__BZcvfaOYAlFJIpiXhSkltpI-cXexXwpXSyZVfV2ugzULcMz-aw1aSoLEmT_g9EnhMZxNy0)
