@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayListCollection
+public class PresidentesBR
 {
    public static void main(String[]args){
    System.out.println("\f");
