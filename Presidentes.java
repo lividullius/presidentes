@@ -6,9 +6,9 @@
  * encontrados na wikipedia.
  * @see https://pt.wikipedia.org/wiki/Lista_de_presidentes_do_Brasil
  * @see https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States
- * @author sophia.danckwardt@edu.pucrs.br
+ * @author livia.dullius@edu.pucrs.br
  * @author raul.j@edu.pucrs.br
- * @author @edu.pucrs.br
+ * @author sophia.danckwardt@edu.pucrs.br
  */
 
 public class Presidentes{
