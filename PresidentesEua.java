@@ -1,8 +1,19 @@
+
+/**
+ * A classe PresidentesEua é uma classe de apllication da clase Presidentes.
+ * De modo similar à classe presidentesBR
+ * Nela são criados um objeto para cada presidente estado-unidense.
+ * Então esses objetos são armazenados dentro de um ArrayList
+ * de acordo com seu mandato.
+ */
+
+
 import java.util.ArrayList;
 public class PresidentesEua
 {
     public static void main(String[]args){
         System.out.println("\f");
+        //definição de variaveis tipo String que armazenam partidos políticos e acontecimentos históricos relacionados á presidencia.
         String PartidoouViceNulos= "Nenhum.";
         String d= "Partido Democrata.";
         String r= "Partido Republicano.";
@@ -12,9 +23,16 @@ public class PresidentesEua
         String eleitoCE="Eleito pelo Colégio Eleitoral.";
         String morte="Morte do antecessor.";
         String renuncia="Renuncia do antecessor.";
+       
+        //criação de um objeto Presidentes armazenado na variavel "us".
         Presidentes us= new Presidentes(1,"George Washington.","John Adams.",PartidoouViceNulos,1789,1797,"Primeiro presidente.");
+        
+        //Cria uma lista, armazenada na variavel "a", da classe ArrayList. Onde nela serão armazenados os objetos 
         ArrayList<Presidentes>a= new ArrayList<Presidentes>();
+      
+        //adiciona o objeto criado no ArrayList .
         a.add(us);
+        
         us= new Presidentes(2,"John Adams.","Thomas Jefferson.",fed,1797,1801,eleitoCE);
         a.add(us);
         us= new Presidentes(3,"Thomas Jefferson.", "Aaron Burr até 1805 e George Cliton até 1809.",dr,1801,1809,eleitoCE);
