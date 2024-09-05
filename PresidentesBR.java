@@ -1,3 +1,13 @@
+/**
+ * A classe PresidentesBR é uma classe de apllication da clase Presidentes.
+ * 
+ * Nela são criados um objeto para cada presidente Brasileiro.
+ * Então esses objetos são armazenados dentro de um ArrayList
+ * de acordo com seu mandato.
+ */
+
+
+
 import java.util.ArrayList;
 
 public class PresidentesBR
@@ -5,6 +15,9 @@ public class PresidentesBR
    public static void main(String[]args){
    System.out.println("\f");
         System.out.println("\n *Não são inclusas figuras que faleceram ou foram vítimas de golpes de estado antes de assumir a presidência, como, por exemplo, Rodrigues Alves, em seu segundo mandato, Júlio Prestes, em 1930, Pedro Aleixo, em 1969, e Tancredo Neves, em 1985.");
+       
+        //definição de variaveis tipo String para armazenar diferentes partidos políticos e acontecimentos históricos relacionados à presidencia.
+      
         String golpe= "Golpe de Estado.";
         String golpe2= "*Golpe de Estado.";
         String eleitoD= "Eleito diretamente.";
@@ -27,9 +40,22 @@ public class PresidentesBR
         String prn= "Partido da Reconstrução Nacional(PRN).";
         String psdb= "Partido da Social Democracia Brasileira(PSDB).";
         String pt= "Partido dos Trabalhadores(PT).";
+
+        //cria um objeto Presidentes armazenando-o na variável "a"
         Presidentes a= new Presidentes(1,"Deodoro da Fonseca.","Floriano Peixoto.",PartidoouViceNulos,1889,1891,golpe);
+      
+        // cria uma lista de Presidentes usando a classe ArrayList. Esta lista armazenará os objetos Presidentes.
         ArrayList<Presidentes> presidentes = new ArrayList<Presidentes>();
+       
+        //adiciona o objeto à lista presidentes
         presidentes.add(a);
+      
+        /**
+        * A partir daqui o codigo cria um objeto para cada presidente da história
+        * do Brasil e addiciona este objeto a lista presidentes
+        * A lista acaba no presidente atual.
+        */
+      
         a= new Presidentes(2,"Floriano Peixoto.",PartidoouViceNulos,PartidoouViceNulos,1891,1894,renuncia);
         presidentes.add(a);
         a=new Presidentes(3,"Prudente de Morais.", "Manuel Vitorino.", prff, 1894,1898,eleitoD);
@@ -106,6 +132,8 @@ public class PresidentesBR
         presidentes.add(a);
         a=new Presidentes(39,"Luiz Inácio Lula da Silva","Geraldo Alckmin", pt, 2023,2026,eleitoD);
         presidentes.add(a);
+
+        //utiliza um for para percorrer toda a lista e imprimi-la
         for(int i=0;i<presidentes.size();i++){
             System.out.println(presidentes.get(i));;
         }
