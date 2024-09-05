@@ -32,7 +32,13 @@ public class PresidentesEua
       
         //adiciona o objeto criado no ArrayList .
         a.add(us);
-        
+       
+        /**
+        * A partir daqui o codigo cria um objeto para cada presidente da história
+        * do Brasil e addiciona este objeto a lista presidentes
+        * A lista acaba no presidente atual.
+        */
+      
         us= new Presidentes(2,"John Adams.","Thomas Jefferson.",fed,1797,1801,eleitoCE);
         a.add(us);
         us= new Presidentes(3,"Thomas Jefferson.", "Aaron Burr até 1805 e George Cliton até 1809.",dr,1801,1809,eleitoCE);
@@ -123,6 +129,7 @@ public class PresidentesEua
         a.add(us);
         us= new Presidentes(46,"Joe Biden.","Kamala Harris.",d,2021,2025,eleitoCE);
         a.add(us);
+        //utilização do for para percorrer a lista e imprimi-la
         for(int i=0;i<a.size();i++){
             System.out.println(a.get(i));
         }
