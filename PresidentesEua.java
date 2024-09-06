@@ -45,13 +45,13 @@ public class PresidentesEua
         a.add(us);
         us= new Presidentes(4,"James Madison.","George Clinton até 1812, Elbridge Gerry até 1814 e nenhum até o fim do mandato.",dr,1809,1817,eleitoCE);
         a.add(us);
-        us= new Presidentes(5,"James Monroe.","Daniel D. Tompkins", dr,1817,1825,eleitoCE);
+        us= new Presidentes(5,"James Monroe.","Daniel D. Tompkins",dr,1817,1825,eleitoCE);
         a.add(us);
-        us= new Presidentes(6,"John Quincy Adams.","John C. Calhoun.","Partido Democrata-Republicano até 1825 e Partido Nacional Republicano desde então.", 1825,1829,"Eleitor por negociações no legislativo após resultados inconclusivos no Colégio Eleitoral.");
+        us= new Presidentes(6,"John Quincy Adams.","John C. Calhoun.","Partido Democrata-Republicano até 1825 e Partido Nacional Republicano desde então.", 1825,1829,"Eleito por negociações no legislativo após resultados inconclusivos no Colégio Eleitoral.");
         a.add(us);
-        us= new Presidentes(7,"Andrew Jackson.","John C. Calhoun até 1832 e Martin Van Buren a partir de 1833.",d, 1829,1837, eleitoCE);
+        us= new Presidentes(7,"Andrew Jackson.","John C. Calhoun até 1832 e Martin Van Buren a partir de 1833.",d,1829,1837,eleitoCE);
         a.add(us);
-        us= new Presidentes(8,"Martin Van Buren.", "Richard Mentor Johnson.",d,1837,1841,eleitoCE);
+        us= new Presidentes(8,"Martin Van Buren.","Richard Mentor Johnson.",d,1837,1841,eleitoCE);
         a.add(us);
         us= new Presidentes(9,"William Henry Harrison.","John Tyler.",w,1841,1841,eleitoCE);
         a.add(us);
@@ -73,7 +73,7 @@ public class PresidentesEua
         a.add(us);
         us= new Presidentes(18,"Ulysses S. Grant.","Schuyler Colfax até 1873, Henry Wilson até 1875 e nenhum até o fim do mandato.", r,1869,1877,eleitoCE);
         a.add(us);
-        us= new Presidentes(19,"Rutherford B. Hayes.", "William A. Wheeler.",r,1877,1881,eleitoCE);
+        us= new Presidentes(19,"Rutherford B. Hayes.","William A. Wheeler.",r,1877,1881,eleitoCE);
         a.add(us);
         us= new Presidentes(20,"James A. Garfield.","Chester A. Arthur.",r,1881,1882,eleitoCE);
         a.add(us);
@@ -91,7 +91,7 @@ public class PresidentesEua
         a.add(us);
         us= new Presidentes(27,"William Howard Taft.","James S. Sherman até 1912 e nenhum até o fim do mandato.",r,1909,1913,eleitoCE);
         a.add(us);
-        us= new Presidentes(28,"Woodrow Wilson.", "Thomas R. Marshall.",d,1913,1921,eleitoCE);
+        us= new Presidentes(28,"Woodrow Wilson.","Thomas R. Marshall.",d,1913,1921,eleitoCE);
         a.add(us);
         us= new Presidentes(29,"Warren G. Harding.","Calvin Coolidge.",r,1921,1923,eleitoCE);
         a.add(us);
@@ -101,7 +101,7 @@ public class PresidentesEua
         a.add(us);
         us= new Presidentes(32,"Franklin D. Roosevelt","John Nance Garner até 1941, Henry A. Wallace até 1945 e Harry S. Truman até o fim do mandato.",d,1933,1945,eleitoCE);
         a.add(us);
-        us= new Presidentes(33,"Harry S. Truman.", "Nenhum até 1949 e Alben W. Barkley a partir de então.",d,1945,1953,morte);
+        us= new Presidentes(33,"Harry S. Truman.","Nenhum até 1949 e Alben W. Barkley a partir de então.",d,1945,1953,morte);
         a.add(us);
         us= new Presidentes(34,"Dwight D. Eisenhower.","Richard Nixon.",r,1953,1961,eleitoCE);
         a.add(us);

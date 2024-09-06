@@ -1,1 +1,56 @@
-
+PartidoouViceNulos= "Nenhum."
+d= "Partido Democrata."
+r= "Partido Republicano."
+dr= "Partido Democrata-Republicano."
+fed= "Partido Federalista."
+w= "Partido Whig."
+eleitoCE="Eleito pelo Colégio Eleitoral."
+morte="Morte do antecessor."
+renuncia="Renuncia do antecessor."
+numero;nome;nomeVice;partido;anoinicio;anofim;posse
+1;"George Washington.";"John Adams.";PartidoouViceNulos;1789;1797;"Primeiro presidente."
+2;"John Adams.";"Thomas Jefferson.";fed;1797;1801;eleitoCE
+3;"Thomas Jefferson.";"Aaron Burr até 1805 e George Cliton até 1809.";dr;1801;1809;eleitoCE
+4;"James Madison.";"George Clinton até 1812, Elbridge Gerry até 1814 e nenhum até o fim do mandato.";dr;1809;1817;eleitoCE
+5;"James Monroe.";"Daniel D. Tompkins";dr;1817;1825;eleitoCE
+6;"John Quincy Adams.";"John C. Calhoun.";"Partido Democrata-Republicano até 1825 e Partido Nacional Republicano desde então.";1825;1829;"Eleito por negociações no legislativo após resultados inconclusivos no Colégio Eleitoral."
+7,"Andrew Jackson.","John C. Calhoun até 1832 e Martin Van Buren a partir de 1833.",d,1829,1837,eleitoCE
+8,"Martin Van Buren.","Richard Mentor Johnson.",d,1837,1841,eleitoCE
+9,"William Henry Harrison.";"John Tyler.";w;1841;1841;eleitoCE
+10,"John Tyler.";PartidoouViceNulos;"Partido Whig até 1841 e nenhum a partir de então.";1841;1845;morte
+11;"James K. Polk.";"George M. Dallas.";d;1845;1849;eleitoCE
+12;"Zachary Taylor.";"Millard Fillmore.";w;1849;1850;eleitoCE
+13;"Millard Fillmore.";PartidoouViceNulos;w;1850;1853;morte
+14;"Franklin Pierce.";"William R.King até 1853 e nenhum até o fim da mandato.";d;1853;1857;eleitoCE
+15;"James Buchanan.";"John C. Breckinridge.";d;1857;1861;eleitoCE
+16;"Abraham Lincoln.";"Hannibal Hamlin até 1865 e Andrew Johnson durante o resto do mandato.";"Partido Republicano até 1864 e Partido da União Nacional até o fim do mandato.";1861;1865;eleitoCE
+17;"Andrew Johnson.";PartidoouViceNulos;"Partido da União Nacional até 1868 e Partido Democrata até o fim do Mandato.";1865;1869;morte
+18;"Ulysses S. Grant.";"Schuyler Colfax até 1873, Henry Wilson até 1875 e nenhum até o fim do mandato."; r;1869;1877;eleitoCE
+19;"Rutherford B. Hayes.";"William A. Wheeler.";r,1877;1881;eleitoCE
+20;"James A. Garfield.";"Chester A. Arthur.";r;1881;1882;eleitoCE
+21;"Chester A. Arthur.";PartidoouViceNulos;r;1882;1885;morte
+22;"Grover Cleveland.";"Thomas A. Hendricks até 1885 e nenhum até o fim do mandato.";d;1885;1889;eleitoCE
+23;"Benjamin Harrison.";"Levi P. Morton.";r;1889;1893;eleitoCE
+24;"Grover Cleveland.";"Adlai Stevenson I.";d,1893;1897;eleitoCE
+25;"William McKinley.";"Garret Hobart até 1899 e Theodore Roosevelt a partir de 1900.";r;1897;1901;eleitoCE
+26;"Theodore Roosevelt.";"Nenhum até 1905 e Charles W. Fairbanks a partir de então.";r;1901;1909;morte
+27;"William Howard Taft.";"James S. Sherman até 1912 e nenhum até o fim do mandato.";r;1909;1913;eleitoCE
+28;"Woodrow Wilson.";"Thomas R. Marshall.";d;1913;1921;eleitoCE
+29;"Warren G. Harding.";"Calvin Coolidge.";r,1921;1923;eleitoCE
+30;"Calvin Coolidge.";"Nenhum até 1925 e Charles G. Dawes até o fim do mandato.";r;1923;1929;morte
+31;"Herbert Hoover.";"Charles Curtis";r;1929;1933;eleitoCE
+32;"Franklin D. Roosevelt";"John Nance Garner até 1941, Henry A. Wallace até 1945 e Harry S. Truman até o fim do mandato.";d;1933;1945;eleitoCE
+33;"Harry S. Truman.";"Nenhum até 1949 e Alben W. Barkley a partir de então.";d;1945;1953;morte
+34;"Dwight D. Eisenhower.";"Richard Nixon.";r;1953;1961;eleitoCE
+35;"John F. Kennedy.";"Lyndon B. Johnson.;d;1961;1963;eleitoCE
+36;"Lyndon B. Johnson.";"Nenhum até 1965 e Humbert Humphrey a partie de então.";d;1963;1969;morte
+37;"Richard Nixon.";"Spiro Agnew até 1973 e Gerald Ford até o fim do mandato.";r;1969;1974;eleitoCE
+38;"Gerald Ford.";"Nenhum até 1974 e Nelson Rockefeller até o fimo do mandato.";r;1974;1977;renuncia
+39;"Jimmy Carter.";"Walter Mondale.";d;1977;1981;eleitoCE
+40;"Ronald Reagan.";"George H. W. Bush.";r;1981;1989;eleitoCE
+41;"George H. W. Bush.";"Dan Quayle.";r;1989;1993;eleitoCE
+42;"Bill Clinton.";"Al Gore.";d;1993;2001;eleitoCE
+43;"George W. Bush.";"Dick Cheney.";r;2001;2009;eleitoCE
+44;"Barack Obama.";"Joe Biden.";d;2009;2017;eleitoCE
+45;"Donald Trump.";"Mike Pence.";r;2017;2021;eleitoCE
+46;"Joe Biden.";"Kamala Harris.";d;2021;2025;eleitoCE
