@@ -1,13 +1,13 @@
 @startuml
 
 class Presidentes {
-    -numero :int
-    -nome : String
-    -nomeVice : String
-    -partido: String
-    -anoinicio : int
-    -anofim : int
-    -posse: String
+    ~numero :int
+    ~nome : String
+    ~nomeVice : String
+    ~partido: String
+    ~anoinicio : int
+    ~anofim : int
+    ~posse: String
     +Presidentes(int numero, String nome, String nomeVice, String partido, int anoinicio, int anofim, String posse)
     +getNumero() : int
     +getNome():String
@@ -32,6 +32,6 @@ class PresidentesEua{
     +{static} main(String[] args) : void
 }
 
-PresidentesBR ...> Presidentes : uses
-PresidentesEua...> Presidentes : uses
+PresidentesBR ...> Presidentes
+PresidentesEua...> Presidentes
 @enduml
