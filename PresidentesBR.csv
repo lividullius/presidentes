@@ -1,1 +1,62 @@
-
+golpe= "Golpe de Estado."
+golpe2= "*Golpe de Estado."
+eleitoD= "Eleito diretamente."
+eleitoI= "Eleito indiretamente."
+renuncia= "Renúncia ou/e impeachment do antecessor."
+morte= "Morte do antecessor."
+morte2= "*Morte do antecessor."
+PartidoouViceNulos= "Nenhum."
+prp= "Partido Republicano Paulista(PRP)."
+prm= "Partido Republicano Mineiro(PRM)."
+prff= "PR Federal (Partido Republicano Federal)"
+prf= "Partido Republicano Fluminense(PRF)"
+prc= "Partido Republicano Conservador(PRC)"
+ptb= "Partido Trabalhista Brasileiro(PTB)."
+psd= "Partido Social Democrático(PSD)."
+psp= "Partido Social Progressista(PSP)."
+ptn= "Partido Trabalhista Nacional(PTN)."
+arena= "Aliança Nacional Renovadora(Arena)."
+pmdb= "Partido do Movimento Democrático Brasileiro(PMDB)/."
+prn= "Partido da Reconstrução Nacional(PRN).";
+psdb= "Partido da Social Democracia Brasileira(PSDB)."
+pt= "Partido dos Trabalhadores(PT)."
+numero;nome;nomeVice;partido;anoinicio;anofim;posse
+1;"Deodoro da Fonseca.";"Floriano Peixoto.";PartidoouViceNulos;1889;1891;golpe
+2;"Floriano Peixoto.";PartidoouViceNulos;PartidoouViceNulos;1891;1894;renuncia
+3;"Prudente de Morais.";"Manuel Vitorino."; prff; 1894;1898;eleitoD
+4;"Campos Sales."; "Rosa e Silva.";prp; 1898; 1902; eleitoD
+5;"Rodrigues Alves.";"Afonso Pena.";prp; 1902;1906;eleitoD
+6;"Afonso Pena.";"Nilo Peçanha.";prp,1906;1909;eleitoD
+7;"Nilo Peçanha.";PartidoouViceNulos;prf;1909;1910;morte
+8;"Hermes da Fonseca.";"Vencelsau Brás.";prc;1910;1914;eleitoD
+9;"Venceslau Brás.";"Urbano Santos.";prm;1914;1918;eleitoD
+10;"Delfim Moreira.";PartidoouViceNulos;prm;1918;1919;morte2
+11;"Epitácio Pessoa.";"Delfim Moreira até 1920 e Bueno de Paiva.";prm;1919;1922;eleitoD
+12;"Arthur Bernardes.";"Estácio Coimbra.";prm;1922;1926;eleitoD
+13;"Washington Luís.";"Fernando de Mello Viana.";prp;1926;1930;eleitoD
+14;"Getúlio Vargas.";PartidoouViceNulos;PartidoouViceNulos;1930;1945;golpe2
+15;"José Linhares.";PartidoouViceNulos;PartidoouViceNulos;1945;1946;golpe
+16;"Eurico Gaspar Dutra.";"Nereu Ramos.";psd;1946;1951;eleitoD
+17;"Getúlio Vargas.";"Café Filho.";ptb;1951;1954;eleitoD
+18;"Café Filho.";PartidoouViceNulos;psp;1954;1955;morte
+19;"Carlos Luz.";PartidoouViceNulos;psd;1955;1955;"Afastamento do antecessor por problemas de saúde."
+20;"Nereu Ramos.";PartidoouViceNulos;psd;1955;1956;golpe
+21;"Juscelino Kubitscheck.";"João Goulart.";psd;1956;1961;eleitoD
+22;"Jânio Quadros.";"João Goulart.";ptn;1961;1961;eleitoD
+23;"Ranieri Mazzilli.";PartidoouViceNulos;psd;1961;1961;renuncia
+24;"João Goulart.";PartidoouViceNulos;ptb;1961;1964;"Antecessor devolve o cargo ao legítimo sucessor."
+25;"Ranieri Mazzilli.";PartidoouViceNulos;psd;1964;1964;golpe
+26,"Humberto Castelo Branco.";"José Maria Alkmin.";"Nenhum até 1966 e Aliança Nacional Renovadora(ARENA) a partir de 1966.";1964;1967;eleitoI
+27;"Artur da Costa e Silva.";"Pedro Aleixo.";arena,1967;1969;eleitoI
+28;"Emílio Garrastazu Médici.";"Augusto Rademaker.";arena;1969;1974;eleitoI
+29;"Ernesto Geisel.";"Adalberto Pereira dos Santos."; arena;1974;1979;eleitoI
+30;"João Figueiredo.";"Aureliano Chaves.";"Aliança Nacional Renovadora(Arena) até 1979 e Partido Democrático Social(PDS) a partir de 1980.";1979;1985;eleitoI
+31;"José Sarney.";PartidoouViceNulos;pmdb;1985;1990;morte2
+32;"Fernando Collor.";"Itamar Franco.";prn;1990;1992;eleitoD
+33;"Itamar Franco.";PartidoouViceNulos;pmdb;1992;1995;renuncia
+34;"Fernando Henrique Cardoso.";"Marco Marciel.";psdb;1995;2003;eleitoD
+35;"Luiz Inácio Lula da Silva.";"José Alencar.";pt;2003;2011;eleitoD
+36;"Dilma Rousseff.";"Michel Temer.";pt;2011;2016;eleitoD
+37;"Michel Temer.";PartidoouViceNulos;pmdb;2016;2019;renuncia
+38;"Jair Bolsonaro.";"Hamilton Mourão";"Partido Social Liberal(PSL) até 2019 e Partido Liberal a partir de 2021";2019;2023,eleitoD
+39;"Luiz Inácio Lula da Silva";"Geraldo Alckmin";pt;2023;2026;eleitoD

@@ -58,27 +58,27 @@ public class PresidentesBR
       
         a= new Presidentes(2,"Floriano Peixoto.",PartidoouViceNulos,PartidoouViceNulos,1891,1894,renuncia);
         presidentes.add(a);
-        a=new Presidentes(3,"Prudente de Morais.", "Manuel Vitorino.", prff, 1894,1898,eleitoD);
+        a=new Presidentes(3,"Prudente de Morais.","Manuel Vitorino.",prff,1894,1898,eleitoD);
         presidentes.add(a);
-        a=new Presidentes(4,"Campos Sales.", "Rosa e Silva.", prp, 1898, 1902, eleitoD);
+        a=new Presidentes(4,"Campos Sales.","Rosa e Silva.", prp,1898,1902,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(5,"Rodrigues Alves.", "Afonso Pena.", prp, 1902,1906,eleitoD);
+        a= new Presidentes(5,"Rodrigues Alves.","Afonso Pena.",prp,1902,1906,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(6,"Afonso Pena.", "Nilo Peçanha.", prp,1906,1909,eleitoD);
+        a= new Presidentes(6,"Afonso Pena.","Nilo Peçanha.",prp,1906,1909,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(7,"Nilo Peçanha.", PartidoouViceNulos, prf,1909,1910,morte);
+        a= new Presidentes(7,"Nilo Peçanha.",PartidoouViceNulos,prf,1909,1910,morte);
         presidentes.add(a);
-        a= new Presidentes(8,"Hermes da Fonseca.", "Vencelsau Brás.", prc, 1910,1914,eleitoD);
+        a= new Presidentes(8,"Hermes da Fonseca.","Vencelsau Brás.",prc,1910,1914,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(9,"Venceslau Brás.", "Urbano Santos.", prm,1914,1918,eleitoD);
+        a= new Presidentes(9,"Venceslau Brás.","Urbano Santos.",prm,1914,1918,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(10,"Delfim Moreira.", PartidoouViceNulos, prm,1918,1919,morte2);
+        a= new Presidentes(10,"Delfim Moreira.", PartidoouViceNulos,prm,1918,1919,morte2);
         presidentes.add(a);
         a= new Presidentes(11,"Epitácio Pessoa.","Delfim Moreira até 1920 e Bueno de Paiva.",prm,1919,1922,eleitoD);
         presidentes.add(a);
         a= new Presidentes(12,"Arthur Bernardes.","Estácio Coimbra.",prm,1922,1926,eleitoD);
         presidentes.add(a);
-        a= new Presidentes(13,"Washington Luís.", "Fernando de Mello Viana.", prp, 1926,1930,eleitoD);
+        a= new Presidentes(13,"Washington Luís.","Fernando de Mello Viana.", prp, 1926,1930,eleitoD);
         presidentes.add(a);
         a= new Presidentes(14,"Getúlio Vargas.",PartidoouViceNulos,PartidoouViceNulos,1930,1945,golpe2);
         presidentes.add(a);
@@ -112,7 +112,7 @@ public class PresidentesBR
         presidentes.add(a);
         a= new Presidentes(29,"Ernesto Geisel.","Adalberto Pereira dos Santos.", arena,1974,1979,eleitoI);
         presidentes.add(a);
-        a= new Presidentes(30,"João Figueiredo.","Aureliano Chaves.", "Aliança Nacional Renovadora(Arena) até 1979 e Partido Democrático Social(PDS) a partir de 1980.",1979,1985,eleitoI);
+        a= new Presidentes(30,"João Figueiredo.","Aureliano Chaves.","Aliança Nacional Renovadora(Arena) até 1979 e Partido Democrático Social(PDS) a partir de 1980.",1979,1985,eleitoI);
         presidentes.add(a);
         a= new Presidentes(31,"José Sarney.",PartidoouViceNulos,pmdb,1985,1990,morte2);
         presidentes.add(a);
@@ -130,7 +130,7 @@ public class PresidentesBR
         presidentes.add(a);
         a=new Presidentes(38,"Jair Bolsonaro.","Hamilton Mourão","Partido Social Liberal(PSL) até 2019 e Partido Liberal a partir de 2021",2019,2023,eleitoD);
         presidentes.add(a);
-        a=new Presidentes(39,"Luiz Inácio Lula da Silva","Geraldo Alckmin", pt, 2023,2026,eleitoD);
+        a=new Presidentes(39,"Luiz Inácio Lula da Silva","Geraldo Alckmin",pt,2023,2026,eleitoD);
         presidentes.add(a);
 
         //utiliza um for para percorrer toda a lista e imprimi-la
