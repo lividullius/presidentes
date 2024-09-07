@@ -35,7 +35,7 @@ public class PresidentesEua
        
         /**
         * A partir daqui o codigo cria um objeto para cada presidente da história
-        * do Brasil e addiciona este objeto a lista presidentes
+        * dos Estados Unidos e addiciona este objeto a lista presidentes
         * A lista acaba no presidente atual.
         */
       
