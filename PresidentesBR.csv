@@ -1,25 +1,3 @@
-golpe= "Golpe de Estado."
-golpe2= "*Golpe de Estado."
-eleitoD= "Eleito diretamente."
-eleitoI= "Eleito indiretamente."
-renuncia= "Renúncia ou/e impeachment do antecessor."
-morte= "Morte do antecessor."
-morte2= "*Morte do antecessor."
-PartidoouViceNulos= "Nenhum."
-prp= "Partido Republicano Paulista(PRP)."
-prm= "Partido Republicano Mineiro(PRM)."
-prff= "PR Federal (Partido Republicano Federal)"
-prf= "Partido Republicano Fluminense(PRF)"
-prc= "Partido Republicano Conservador(PRC)"
-ptb= "Partido Trabalhista Brasileiro(PTB)."
-psd= "Partido Social Democrático(PSD)."
-psp= "Partido Social Progressista(PSP)."
-ptn= "Partido Trabalhista Nacional(PTN)."
-arena= "Aliança Nacional Renovadora(Arena)."
-pmdb= "Partido do Movimento Democrático Brasileiro(PMDB)/."
-prn= "Partido da Reconstrução Nacional(PRN).";
-psdb= "Partido da Social Democracia Brasileira(PSDB)."
-pt= "Partido dos Trabalhadores(PT)."
 numero;nome;nomeVice;partido;anoinicio;anofim;posse
 1;"Deodoro da Fonseca.";"Floriano Peixoto.";PartidoouViceNulos;1889;1891;golpe
 2;"Floriano Peixoto.";PartidoouViceNulos;PartidoouViceNulos;1891;1894;renuncia
